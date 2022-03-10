@@ -21,4 +21,11 @@ You have a several ways to use executable file:
 4. If file is correct, you see result
 
 ### 2. Command line way
-1. Enter in command line "...\ Interpreter
+1. Enter in command line "...\Interpreter.exe [name or path file]
+2. You see result  
+   
+P.S. this way can be used for automatic run code in VS Code.
+
+## Settings
+---
+Repository have [`Settings.txt`](./Settings.txt) file for 
