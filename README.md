@@ -1,7 +1,7 @@
 # Interpreter-BrainFuck
 ## Description 
 ---
-Program interpret file with extention .bf.  
+Program interprets file with extention .bf.  
 You can give a name to file or path of program. 
 For example: 
 
