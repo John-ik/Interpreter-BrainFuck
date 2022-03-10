@@ -1,4 +1,4 @@
-# Interpreter-Brain-Fuck
+# Interpreter-BrainFuck
 ## Description 
 ---
 Program interpret file with extention .bf.  
@@ -11,6 +11,19 @@ For example:
 
 This brainfuck code show "Hello World!".
 
+## A little hepl about language
+---
+Brainfuck have 8 commands:  
+| Command | doing |
+|:-:|---|
+| \> | Increment data pointer |
+| < | Decrement data pointer  |
+| + | Increment the byte in the pointer |
+| - | Decrement the byte in the pointer |
+| . | Output from the byte in the pointer |
+| , | Accept one byte of input, storing its value in the byte at the pointer. |
+| [ | If the byte in pointer equal zero, then instead of moving the instruction pointer forward to the next command, jump it forward to the command after the matching `]`|
+| ] | If the byte at the data pointer is nonzero, then instead of moving the instruction pointer forward to the next command, jump it back to the command after the matching `[` command. |
 ## How use
 ---
 You have a several ways to use executable file:  
@@ -28,4 +41,12 @@ P.S. this way can be used for automatic run code in VS Code.
 
 ## Settings
 ---
-Repository have [`Settings.txt`](./Settings.txt) file for [README.md](https://github.com/John-ik/Interpreter-BrainFuck/files/8226031/README.md)
+Repository have [`Settings.txt`](./Settings.txt) file for easy setup default path to file and limited working time. 
+
+
+Default path lets you enter only file name.  
+In *Settings.txt* **DefaultPath** contains path to directory with your *.bf* file.  
+Default: `C:\`
+
+If working time will exceed **TimeOut** defined in *Setting.txt* program close and put out error. This is to avoid code doesn\`t work well or doesn\`t work as you think.  
+Default: `5` seconds
