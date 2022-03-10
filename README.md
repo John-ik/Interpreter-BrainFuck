@@ -11,7 +11,7 @@ For example:
 
 This brainfuck code show "Hello World!".
 
-## A little hepl about language
+## A little help about language
 ---
 Brainfuck have 8 commands:  
 
@@ -29,7 +29,7 @@ Brainfuck have 8 commands:
 The language is fully Turing complete.
 ## How use
 ---
-You have a several ways to use executable file:  
+You have a several way to use executable file:  
 ### 1. Easy way
 1. Run .exe file  
 2. Program show "Enter file name or path: "
@@ -44,7 +44,7 @@ P.S. this way can be used for automatic run code in VS Code.
 
 ## Test
 
-Repository has [`Test.bf`](./Test.bf)
+Repository has [`Test.bf`](./Test.bf) file with brainfuck code showing "*Hello World!*"
 
 ## Settings
 ---
