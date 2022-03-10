@@ -1,2 +1,2 @@
-DefaultPath: C:/Progects/VS_Code/Bf/
+DefaultPath: C:/
 TimeOut: 5
