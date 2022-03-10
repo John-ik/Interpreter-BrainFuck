@@ -2,7 +2,7 @@
 ## Description 
 ---
 Program interpret file with extention .bf.  
-You can give to program name of file or path to file.  
+You can give a name to file or path of program. 
 For example: 
 
 > ++++++++++[>+++++++>++++++++++>+++>+<<<<-]>++
@@ -42,9 +42,13 @@ You have a several ways to use executable file:
    
 P.S. this way can be used for automatic run code in VS Code.
 
+## Test
+
+Repository has [`Test.bf`](./Test.bf)
+
 ## Settings
 ---
-Repository have [`Settings.txt`](./Settings.txt) file for easy setup default path to file and limited working time. 
+Repository has [`Settings.txt`](./Settings.txt) file for easy setup default path to file and limited working time. 
 
 
 Default path lets you enter only file name.  
