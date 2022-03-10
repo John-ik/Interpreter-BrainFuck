@@ -44,7 +44,7 @@ P.S. this way can be used for automatic run code in VS Code.
 
 ## Test
 
-Repository has [`Test.bf`](./Test.bf) file with brainfuck code showing "*Hello World!*"
+Repository has [`test.bf`](./test.bf) file with brainfuck code showing "*Hello World!*"
 
 ## Settings
 ---
