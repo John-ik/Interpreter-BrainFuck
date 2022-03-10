@@ -14,14 +14,15 @@ This brainfuck code show "Hello World!".
 ## A little hepl about language
 ---
 Brainfuck have 8 commands:  
-| Command | doing | analog |
+
+| Command | Doing | Analog |
 |:-:|---|---|
 | \> | Increment data pointer | `i++` |
 | < | Decrement data pointer  | `i--` |
 | + | Increment the byte in the pointer | `arr[i]++` | 
 | - | Decrement the byte in the pointer | `arr[i]--` |
 | . | Output from the byte in the pointer | `cout >> arr[i]` |
-| , | Accept one byte of input, storing its value in the byte at the pointer. | `cin << arr[i]`
+| , | Accept one byte of input, storing its value in the byte at the pointer. | `cin << arr[i]` |
 | [ | If the byte in pointer equal zero, then instead of moving the instruction pointer forward to the next command, jump it forward to the command after the matching `]`| `while (arr[i]) {` |
 | ] | If the byte at the data pointer is nonzero, then instead of moving the instruction pointer forward to the next command, jump it back to the command after the matching `[` command. | `}` |
 
