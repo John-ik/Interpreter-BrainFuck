@@ -28,4 +28,4 @@ P.S. this way can be used for automatic run code in VS Code.
 
 ## Settings
 ---
-Repository have [`Settings.txt`](./Settings.txt) file for 
+Repository have [`Settings.txt`](./Settings.txt) file for [README.md](https://github.com/John-ik/Interpreter-BrainFuck/files/8226031/README.md)
