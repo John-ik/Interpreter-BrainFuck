@@ -44,7 +44,7 @@ P.S. this way can be used for automatic run code in VS Code.
 
 ## Test
 
-Repository has [`test.bf`](./test.bf) file with brainfuck code showing "*Hello World!*"
+Repository has [`test.bf`](./Bf/test.bf) file with brainfuck code showing "*Hello World!*"
 
 ## Settings
 ---
@@ -53,7 +53,7 @@ Repository has [`Settings.txt`](./Settings.txt) file for easy setup default path
 
 Default path lets you enter only file name.  
 In *Settings.txt* **DefaultPath** contains path to directory with your *.bf* file.  
-Default: `C:\`
+Default: `..Bf/`
 
 If working time will exceed **TimeOut** defined in *Setting.txt* program close and put out error. This is to avoid code doesn\`t work well or doesn\`t work as you think.  
 Default: `5` seconds
